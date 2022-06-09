@@ -1,0 +1,45 @@
+[
+    {
+      "id": 1,
+       "name": "JASON BARR",
+      "img": "https://img.freepik.com/free-photo/portrait-hansome-young-male-doctor-man_171337-5068.jpg?size=626&ext=jpg&uid=R64903934&ga=GA1.2.270866342.1647831681",
+      "service": "Cardiologists",
+      "description":" You might see them for heart failure, a heart attack, high blood pressure, or an irregular heartbeat."
+    },
+    {
+      "id": 2,
+       "name": "Dr. Mahbub H Khan ",
+      "img": "https://img.freepik.com/free-photo/portrait-smiling-male-doctor_171337-1532.jpg?size=626&ext=jpg&uid=R64903934&ga=GA1.2.270866342.1647831681",
+      "service": "Dermatologists",
+      "description":" hair, nails? Do you have moles, scars, acne, or skin allergies? Dermatologists can help."
+    },
+    {
+      "id": 3,
+       "name": " Dr. Sk. Nazrul Islam",
+      "img": "https://img.freepik.com/free-photo/happy-young-male-doctor-using-tablet-computer_1262-18254.jpg?size=626&ext=jpg&uid=R64903934&ga=GA1.2.270866342.1647831681",
+      "service": "Endocrinologists",
+      "description":" diabetes, thyroid problems, infertility, and calcium and bone disorders."
+    },
+    {
+      "id": 4,
+       "name": " Dr. Farooque Ahmed",
+      "img": "https://img.freepik.com/free-photo/medium-shot-doctor-with-crossed-arms_23-2148868176.jpg?size=626&ext=jpg&uid=R64903934&ga=GA1.2.270866342.1647831681",
+      "service": "Gastroenterologists",
+      "description":"You might see them for abdominal pain, ulcers, diarrhea, jaundice, or cancers in your digestive organs"
+    },
+    {
+      "id": 5,
+       "name": "Dr. F H Siraji ",
+      "img": "https://img.freepik.com/free-photo/portrait-successful-young-doctor-with-folder-stethoscope_1262-12410.jpg?size=626&ext=jpg&uid=R64903934&ga=GA1.2.270866342.1647831681",
+      "service": "Neurologists",
+      "description":" hey treat strokes, brain and spinal tumors, epilepsy, Parkinson's disease, and Alzheimer's diseas"
+    },
+    {
+      "id": 6,
+       "name": "Abu Nasser.",
+      "img": "https://img.freepik.com/free-photo/medium-shot-doctor-wearing-mask_23-2148868090.jpg?w=740",
+      "service": "Ophthalmologists",
+      "description":" doctors who can treat every kind of eye condition as well as operate on the eyes."
+    }
+   
+]
