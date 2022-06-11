@@ -13,6 +13,7 @@ import RequireAuth from "./pages/RequireAuth/RequireAuth";
 import Dashboard from "./pages/Dashboard/Dashboard";
 import MyAppointments from "./pages/Dashboard/MyAppointments";
 import Review from "./pages/Dashboard/Review";
+import MyHistory from "./pages/Dashboard/MyHistory";
 function App() {
   return (
     <>
@@ -20,6 +21,7 @@ function App() {
       <div>
         <Routes>
           <Route path="/" element={<Home></Home>}></Route>
+          <Route path="/home" element={<Home></Home>}></Route>
           <Route
             path="/appointment"
             element={
@@ -38,6 +40,7 @@ function App() {
           >
             <Route index element={<MyAppointments></MyAppointments>}></Route>
             <Route path="review" element={<Review></Review>}></Route>
+            <Route path="history" element={<MyHistory></MyHistory>}></Route>
           </Route>
           <Route path="/blogs" element={<Blogs></Blogs>}></Route>
           <Route path="/login" element={<Login></Login>}></Route>
