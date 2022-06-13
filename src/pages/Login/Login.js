@@ -8,6 +8,7 @@ import { useForm } from "react-hook-form";
 
 import { Link, useNavigate, useLocation } from "react-router-dom";
 import auth from "../../firebase.init";
+import useToken from "../../hooks/useToken";
 import Loading from "../../shared/Loading";
 
 const Login = () => {
@@ -20,16 +21,18 @@ const Login = () => {
   const [signInWithEmailAndPassword, user, loading, error] =
     useSignInWithEmailAndPassword(auth);
 
+  const [token] = useToken(user || gUser);
+
   let signInError;
   const navigate = useNavigate();
   const location = useLocation();
   let from = location.state?.from?.pathname || "/";
 
   useEffect(() => {
-    if (user || gUser) {
+    if (token) {
       navigate(from, { replace: true });
     }
-  }, [user, gUser, from, navigate]);
+  }, [token, from, navigate]);
 
   if (loading || gLoading) {
     return <Loading></Loading>;
@@ -120,14 +123,14 @@ const Login = () => {
 
             {signInError}
             <input
-              className="btn w-full max-w-xs text-white"
+              className="btn w-full max-w-xs  btn-primary "
               type="submit"
               value="Login"
             />
           </form>
           <p>
             <small>
-              New to Doctors Portal{" "}
+              New to DoctorsHome{" "}
               <Link className="text-primary" to="/signup">
                 Create New Account
               </Link>
